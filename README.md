@@ -1,30 +1,58 @@
-# React + TypeScript + Vite
+<p align="center">
+  <img alt="preview image" src=".github/preview.png">
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=7b6ef6&labelColor=120f31" alt="License">
+  
+  <img src="https://img.shields.io/github/forks/NitoBa/the-movie-app?label=forks&message=MIT&color=7b6ef6&labelColor=120f31" alt="Forks">
 
-Currently, two official plugins are available:
+  <img src="https://img.shields.io/github/stars/NitoBa/the-movie-app?label=stars&message=MIT&color=7b6ef6&labelColor=120f31" alt="Stars">
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h1 align="center">
+BuildBox Mini Blog App
+</h1>
 
-## Expanding the ESLint configuration
+<br>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🧪 Technologies
 
-- Configure the top-level `parserOptions` property like this:
+This project was developed using the following technologies:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+- [ReactJS](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [ReactHookForm](https://react-hook-form.com/)
+- [Zod](https://zod.dev/)
+- [JsonServer](https://www.npmjs.com/package/json-server)
+- [ReactHotToast](https://react-hot-toast.com/)
+- [ReactQuery](https://tanstack.com/query/v4/docs/framework/react/overview)
+- [ReactDropZone](https://react-dropzone.js.org/)
+- [StyledComponents](https://styled-components.com/)
+
+## 🚀 Getting started
+
+Clone the project and access the folder.
+
+```bash
+git clone https://github.com/nitoba/build-box.git
+
+cd build-box
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Run this command to install the dependencies
+
+```bash
+npm install
+
+npm run dev
+```
+
+
+## 📝 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+Made with 💜 by [Bruno Alves](https://nito-dev.vercel.app/) 👋
